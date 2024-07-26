@@ -1,2 +1,41 @@
 this is my file one for git course
-adding more content to file one
+adding more content to file one  
+
+// git code in terminal
+git --version
+git status
+
+
+//Your config settings
+git config --global user.email "your-email@example.com"
+git config --global user.name "Your Name"
+git config --list
+
+
+//Creating a repository
+git status
+git init
+
+//Stage
+git init
+git add <file> <file2> 
+OR
+git add .
+git status
+
+//Commit
+git commit -m "commit message"
+git status
+
+//Logs
+git log 
+OR
+git log --oneline
+
+//change default code editor
+git config --global core.editor "code --wait"
+
+//gitignore
+node_modules
+.env
+.vscode
