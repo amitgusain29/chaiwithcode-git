@@ -97,3 +97,7 @@ List all branches
 You can list all branches using the following command:
 
 ->git branch
+
+// Abort merge
+
+-> git merge --abort
