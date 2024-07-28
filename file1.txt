@@ -122,3 +122,37 @@ You can list all branches using the following command:
 -> git diff <commit-hash-one>..<commit-hash-two>
 
 // Git Stash
+
+-> git stash
+
+// Naming the stash
+
+-> git stash save "work in progress on X feature"
+
+// View the stash list
+
+-> git stash list
+
+// git stash list
+
+-> git stash apply
+
+// Apply the specific stash
+
+git stash apply stash@{0}
+
+// Applying and dropping the stash
+
+git stash pop
+
+// Drop the stash
+
+git stash drop
+
+// Applying stash to a specific branch
+
+-> git stash apply stash@{0} <branch-name>
+
+// Clearing the stash
+
+-> git stash clear
