@@ -117,3 +117,8 @@ You can list all branches using the following command:
 
 -> git diff <commit-hash-one> <commit-hash-two>
 
+-> git diff <branch-name-one>..<branch-name-two>
+
+-> git diff <commit-hash-one>..<commit-hash-two>
+
+// Git Stash
