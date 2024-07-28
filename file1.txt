@@ -133,7 +133,7 @@ You can list all branches using the following command:
 
 -> git stash list
 
-// git stash list
+// Apply stash
 
 -> git stash apply
 
