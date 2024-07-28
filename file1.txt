@@ -101,3 +101,19 @@ You can list all branches using the following command:
 // Abort merge
 
 -> git merge --abort
+
+
+// Comparing Working Directory and Staging Area
+
+->git diff
+
+// Comparing Staging Area with Repository
+
+-> git diff --staged
+
+// Comparing between branches
+
+-> git diff <branch-name-one> <branch-name-two>
+
+-> git diff <commit-hash-one> <commit-hash-two>
+
