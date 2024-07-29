@@ -192,8 +192,16 @@ git tag <tag-name> <commit-hash>
 // Delete a tag
 
 git tag -d <tag-name>
+git tag -delete <tag-name>
+git tag -d <tag-name> <tag-name> <tag-name> 
 
 // Delete tag on remote repository
 
 git push origin :<tag-name>
+git push origin -d <tag-name>
+git push origin --delete <tag-name>
+git push origin --delete <tag-name> <tag-name> <tag-name>
+
+
+
 
